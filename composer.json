@@ -1,0 +1,22 @@
+{
+    "name": "wenshizhengxin/unicloud_oss",
+    "description": "紫光云对象存储（OSS）插件",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Temple Chan",
+            "email": "1421224516@qq.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0.0",
+        "cmq2080/mime_type_getter": "~1.0.0",
+        "aws/aws-sdk-php": "^3.254"
+    },
+    "autoload": {
+        "psr-4": {
+            "wenshizhengxin\\unicloud_oss\\": "src/"
+        }
+    }
+}
